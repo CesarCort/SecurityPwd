@@ -1,0 +1,16 @@
+# ignore all logs
+*.log
+
+# ignore credentials database
+*/utils/credential.py
+
+#ignore all pycache
+*/__pycache__
+
+#ignore all pycache
+*/documentation
+#ignore all pycache
+/documentation/*
+
+#ignore all pycache
+*.sql

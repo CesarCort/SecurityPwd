@@ -1,0 +1,116 @@
+*{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+h1 {
+    color:green;
+}
+.xyz {
+    background-size: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+.btn-circle.btn-xl {
+    width: 90px;
+    height: 90px;
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+    border:1px solid !important;
+    border-color: #BCBCBC;
+}
+.text-keyboard {
+  font-size:30px;
+}
+input{
+  border:2px solid !important;
+  border-color: #707070 !important;
+}
+
+.no-avaliable-section{
+  background-color:#232323 !important;
+}
+
+/*Backgrounds Styles*/
+.dark-background{
+  background:#232323 !important;
+}
+
+.dark-transparent-background{
+  background: rgba(35, 35, 35, 0.63) !important;
+}
+
+.login-background {
+  width: 100%;
+  height:100%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.call-action{
+  border-radius: 50px !important;
+  border-color: #64FFC7 !important;
+  background-color: #64FFC7 !important;
+}
+
+.call-action-secund{
+  border-radius: 50px !important;
+  border-color: #64FFC7 !important;
+  color: #64FFC7 !important;
+  background-color: #232323 !important;
+  weight: auto!important;
+}
+
+.text-action{
+  color: #64FFC7 !important;
+}
+
+.section-form{
+  border: solid 1px;
+  border-color: #64FFC7;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.login-background {
+    background: linear-gradient(-45deg,#232323,#232323,#64FFC7,#232323);
+
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
